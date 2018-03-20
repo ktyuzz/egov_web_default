@@ -17,8 +17,14 @@
     </licenses>
     
 	<properties>
-	    <spring.maven.artifact.version>4.2.4.RELEASE</spring.maven.artifact.version>
+		<!-- 컨텍스트 루트 지정 -->
+		<wtpContextName>/</wtpContextName>
+		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
+		<spring.maven.artifact.version>4.3.14.RELEASE</spring.maven.artifact.version>
+		<java.version>1.8</java.version>
+		<servlet.version>3.1.0</servlet.version>
 		<egovframework.rte.version>3.7.0</egovframework.rte.version>
+		<egovframework.jpa.version>3.7.0</egovframework.jpa.version>
 	</properties>
 
 	<repositories>
